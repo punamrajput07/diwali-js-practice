@@ -2,12 +2,15 @@
     color: none;
 }
 .main-container{
-    background-color: black;
+    background-color: white;
 
 
 }
 .bg-light{
     background-color: white;
+}
+.bg-dark{
+    background-color: black;
 }
 .nav-bar {
     display: flex;
@@ -60,8 +63,8 @@
 .diya-img {
     margin-top: 100px;
     width: 130px;
-    border: solid 1px black;
-    background-color: white;
+    border: none;
+    background-color: none;
     border-radius: 50%;
 }
 .btn{

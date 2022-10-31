@@ -1,24 +1,43 @@
 <html lang="en">
 <head>
    <link rel="stylesheet" href="style.css">
+
+   <script>
+
+        function chamcham(){
+            document.querySelector(".lakshmi-img").className = "jaduu lakshmi-img"
+
+        }
+        function light(){
+            document.querySelector(".main-container").className = "main-container bg-dark"
+            document.getElementsById("#image").src = "lamp.png"
+   
+        }
+
+        function dark(){
+            document.querySelector(".main-container").className = "main-container bg-light"
+            document.getElementById("image").src = "decoration.png"
+
+        }       
+   </script>
 </head>
 <body>
     <div class="main-container">
         <div class="deco-container">
             <div>
-                <img src="./images/decoration.png" class="deco-img">
+                <img src="./images/decoration.png" class="deco-img" >
             </div>
             <div>
-                <img src="./images/lamp.png" class="deco-img">
+                <img src="./images/decoration.png" class="deco-img" >
             </div>
             <div>
                 <img src="./images/decoration.png" class="deco-img" id="image">
             </div>
             <div>
-                <img src="./images/lamp.png" class="deco-img">
+                <img src="./images/decoration.png" class="deco-img" >
             </div>
             <div>
-                <img src="./images/decoration.png" class="deco-img">
+                <img src="./images/decoration.png" class="deco-img" >
             </div>
         </div>
 
@@ -37,7 +56,7 @@
                     <img src="./images/lakshmi.png" class="lakshmi-img">
                 </div> 
                 <div>
-                    <img src="./images/diya.png" class="diya-img"  onclick="light()" onmouseout="dark()">
+                    <img src="./images/diya.png" class="diya-img"  onclick="light()" ondblclick="dark()">
                 </div>
 
             </div>
