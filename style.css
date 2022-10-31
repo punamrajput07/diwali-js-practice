@@ -66,6 +66,7 @@
     border: none;
     background-color: none;
     border-radius: 50%;
+    cursor: pointer;
 }
 .btn{
     padding: 10px;
@@ -76,4 +77,5 @@
 }
 .flower{
     width: 150px;
+    cursor: pointer;
 }
